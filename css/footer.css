@@ -1,0 +1,117 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0rem;
+  width: 85%;
+  margin: auto;
+}
+
+.footer > h2 {
+  color: var(--color-primary);
+  font-size: 1.9rem;
+  line-height: 2.1rem;
+  font-weight: 900;
+  align-self: flex-start;
+  text-align: left;
+  width: 200px;
+}
+
+.companyinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 170px;
+  margin: 2rem 0;
+  gap: 1rem;
+  color: var(--color-primary);
+}
+
+.message {
+  font-family: flood-std, sans-serif;
+  font-size: 2.75rem;
+  line-height: 3rem;
+  color: var(--color-primary);
+  width: 150px;
+  align-self: flex-end;
+  text-align: right;
+}
+
+.contact > h3,
+.follow > h3,
+.learn > h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0.6rem 0;
+}
+
+.contact {
+  text-align: left;
+  width: 100%;
+}
+
+.contact > div {
+  font-size: 1.15rem;
+  font-weight: 100;
+  margin: 0.3rem 0;
+}
+
+.follow {
+  text-align: left;
+  width: 100%;
+}
+
+.follow > div {
+  font-size: 1.15rem;
+  font-weight: 100;
+  margin: 0.3rem 0;
+  text-decoration: underline;
+}
+
+.learn {
+  text-align: left;
+  width: 100%;
+}
+
+.learn > div {
+  font-size: 1.15rem;
+  font-weight: 100;
+  margin: 0.3rem 0;
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 3rem 4rem;
+    width: 100%;
+  }
+
+  .footer > h2 {
+    width: 220px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    flex-direction: row;
+  } 
+}
+
+@media (min-width: 1440px) {
+  .footer{
+    padding: 3rem 10rem;
+  }
+  .footer > h2 {
+    align-self: center;
+  }
+  .message {
+    align-self: center;
+  }
+  .companyinfo{
+    width: 590px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,132 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+  font-size: 0.8rem;
+  line-height: 28px;
+  padding: 1rem 0.8rem;
+}
+
+.logo {
+  width: 55%;
+}
+
+.logo > h1 {
+  font-size: 1.7rem;
+  color: #333333;
+}
+
+.nav {
+  width: 40%;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav > a {
+  color: var(--color-primary);
+  font-size: 1.1rem;
+  font-weight: 100;
+}
+
+.header > button {
+  width: 90%;
+  margin: 1.1rem auto;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 900;
+  background: var(--color-secondary);
+  padding: 10px 30px;
+  color: var(--color-primary);
+  border-radius: 28px;
+}
+
+.fa-bars {
+  font-size: 1.2rem;
+  color: #354463;
+}
+
+@media (min-width: 768px) {
+  .header {
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5%;
+    font-size: 0.8rem;
+    padding: 1rem 0.8rem;
+  }
+
+  .logo {
+    width: 55%;
+  }
+
+  .logo > h1 {
+    font-size: 1.9rem;
+    line-height: 2.1rem;
+    width: 55%;
+  }
+
+  .nav {
+    width: 55%;
+    font-size: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav > a {
+    font-size: 1.2rem;
+  }
+
+  .header > button {
+    width: 30%;
+    margin: 1rem auto;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    padding: 10px 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    flex-wrap: nowrap;
+    gap: 5%;
+    font-size: 0.8rem;
+    line-height: 28px;
+    padding: 1rem 3rem;
+  }
+
+  .logo {
+    width: 45%;
+  }
+
+  .logo > h1 {
+    width: 220px;
+  }
+
+  .nav {
+    width: 70%;
+    gap: 2.5rem;
+  }
+
+  .nav > a {
+    font-size: 1.2rem;
+    font-weight: 100;
+  }
+
+  .header > button {
+    width: 245px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .header {
+    padding: 1rem 10rem;
+  }
+  .nav {
+    width: 70%;
+    justify-content: center;
+    gap: 5.5rem;
+  }
+}

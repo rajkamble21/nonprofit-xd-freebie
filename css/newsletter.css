@@ -1,0 +1,99 @@
+.newsletter {
+  background-color: var(--color-secondary);
+  padding: 2.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.newsletter > h2 {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  font-weight: 900;
+  width: 85%;
+}
+
+.newsletter-bottom {
+  width: 87%;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 2%;
+}
+
+.newsletter-bottom > input {
+  background-color: var(--color-white);
+  padding: 15px 5px;
+  border-radius: 24px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.newsletter-bottom > button {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 900;
+  background: var(--color-primary);
+  padding: 15px 5px;
+  color: var(--color-secondary);
+  border-radius: 28px;
+  width: 100%;
+}
+
+@media (max-width: 320px) {
+  .newsletter-bottom > input {
+    font-size: 0.8rem;
+    padding: 15px 10px;
+  }
+  .newsletter-bottom > button {
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .newsletter {
+    padding: 3.5rem 4rem;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .newsletter > h2 {
+    font-weight: 900;
+    width: 75%;
+    align-self: flex-start;
+  }
+
+  .newsletter-bottom {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 73% 23%;
+    gap: 4%;
+  }
+
+  .newsletter-bottom > input {
+    padding: 15px 15px;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  .newsletter-bottom > button {
+    font-size: 1.2rem;
+    padding: 15px 5px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .newsletter {
+    padding: 4.5rem 10rem;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .newsletter > h2 {
+    line-height: 1.7rem;
+    width: 75%;
+  }
+}

@@ -1,0 +1,240 @@
+.save-future {
+  background: var(--color-primary);
+  color: #ffffff;
+  padding: 3rem 0;
+}
+
+.save-future > h2 {
+  font-family: flood-std, sans-serif;
+  font-size: 2.75rem;
+  line-height: 2.975rem;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.save-future-card {
+  margin-top: 5rem;
+  position: relative;
+}
+
+.save-future-card > button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -25px;
+  width: 161px;
+  height: 46px;
+  background-color: var(--color-white);
+  color: var(--color-primary);
+}
+
+.save-future-card > img {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.save-future-data {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.save-future-data > h3 {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 900;
+  margin: 2rem 0;
+}
+
+.save-future-data > p {
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  font-weight: 100;
+  margin: 2rem 0;
+}
+
+.save-future-data > button {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 900;
+  background: var(--color-secondary);
+  padding: 10px 30px;
+  color: var(--color-primary);
+  border-radius: 28px;
+  display: block;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .save-future {
+    background: var(--color-primary);
+    color: #ffffff;
+    padding: 4rem 4rem;
+  }
+
+  .save-future > h2 {
+    font-family: flood-std, sans-serif;
+    font-size: 3.2rem;
+    line-height: 3.4rem;
+    width: 100%;
+    text-align: left;
+    margin: auto;
+  }
+
+  .save-future-card {
+    margin-top: 5rem;
+    position: relative;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  #save-future-card-2{
+    flex-direction: row-reverse;
+  }
+
+  .save-future-card > button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(30%);
+    top: 0px;
+    width: 161px;
+    height: 46px;
+    background-color: var(--color-white);
+    color: var(--color-primary);
+  }
+
+  #save-future-card-2 > button {
+    left: 0%;
+    transform: translateX(0%);
+  }
+
+  .save-future-card > img {
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
+
+  .save-future-data {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+  .save-future-data > h3 {
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 900;
+    margin: 5rem 0 2rem;
+  }
+
+  .save-future-data > p {
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    font-weight: 100;
+    margin: 2rem 0;
+  }
+
+  .save-future-data > button {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 900;
+    background: var(--color-secondary);
+    padding: 10px 30px;
+    color: var(--color-primary);
+    border-radius: 28px;
+    display: block;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .save-future {
+    background: var(--color-primary);
+    color: #ffffff;
+    padding: 5rem 10rem;
+  }
+
+  .save-future > h2 {
+    font-family: flood-std, sans-serif;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    width: 70%;
+    text-align: left;
+    margin: 0;
+  }
+
+  .save-future-card {
+    margin-top: 5rem;
+    position: relative;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  #save-future-card-2{
+    flex-direction: row-reverse;
+  }
+
+  .save-future-card > button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(50%);
+    top: 0px;
+    width: 161px;
+    height: 46px;
+    background-color: var(--color-white);
+    color: var(--color-primary);
+  }
+
+  #save-future-card-2 > button {
+    left: 0%;
+    transform: translateX(0%);
+  }
+
+  .save-future-card > img {
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
+
+  .save-future-data {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+  .save-future-data > h3 {
+    text-align: left;
+    font-size: 3rem;
+    line-height: 3.3rem;
+    font-weight: 900;
+    margin: 5rem 0 2rem;
+  }
+
+  .save-future-data > p {
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 100;
+    margin: 2rem 0;
+  }
+
+  .save-future-data > button {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 900;
+    background: var(--color-secondary);
+    padding: 10px 30px;
+    color: var(--color-primary);
+    border-radius: 28px;
+    display: block;
+    margin: 0;
+  }
+}

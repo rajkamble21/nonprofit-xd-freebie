@@ -1,0 +1,255 @@
+.take-action {
+  background-image: url(../assets/assets/home/did-you-know-background.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 195vh;
+}
+
+@media (max-width: 320px) {
+  .take-action {
+    height: 205vh;
+  }
+
+}
+
+.take-action > div > h2 {
+  font-family: flood-std, sans-serif;
+  font-size: 3rem;
+  line-height: 3.2rem;
+  padding: 2.5rem 1rem;
+  color: #ffffff;
+  width: 70%;
+}
+
+.take-action > div > button {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 900;
+  background: var(--color-secondary);
+  padding: 10px 10px;
+  color: var(--color-primary);
+  border-radius: 28px;
+  margin: 0rem 1rem;
+}
+
+.did-you-know {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  width: 90%;
+  margin: 5rem auto 3rem;
+}
+
+.box {
+  background: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 2rem;
+}
+
+.box > button {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  width: 161px;
+  height: 46px;
+  display: block;
+  position: absolute;
+  top: -12%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.left {
+  width: 70%;
+}
+
+.left > h3 {
+  color: var(--color-primary);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.left > p {
+  color: var(--color-primary);
+  color: var(--color-primary);
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  color: var(--color-primary);
+}
+
+.fa-twitter {
+  padding: 1rem;
+  background-color: var(--color-secondary);
+  border-radius: 50%;
+}
+
+.fa-facebook-f {
+  padding: 1rem;
+  background-color: var(--color-secondary);
+  border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+  .take-action {
+    height: 140vh;
+    padding: 0 4rem;
+  }
+
+  .take-action {
+    display: grid;
+    grid-template-columns: 30% 70%; 
+    width: 100%;
+    gap: 2rem;
+  }
+
+  .take-action > div{
+    width: 100%;
+  }
+
+  .take-action > div > h2 {
+    font-family: flood-std, sans-serif;
+    font-size: 3rem;
+    line-height: 3.2rem;
+    padding: 2.5rem 0rem;
+    color: #ffffff;
+    width: 50%;
+  }
+
+  .take-action > div > button {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 900;
+    background: var(--color-secondary);
+    padding: 10px 10px;
+    color: var(--color-primary);
+    border-radius: 28px;
+    margin: 0rem 0rem;
+  }
+
+  .did-you-know {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    width: 100%;
+    margin: 5rem 0 3rem;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .box > button {
+    top: -13%;
+    left: 10%;
+    transform: translateX(-10%);
+  }
+
+  .left {
+    width: 70%;
+  }
+
+  .left > h3 {
+    font-size: 2rem;
+  }
+
+  .left > p {
+    font-size: 1rem;
+  }
+
+
+}
+
+
+@media (min-width: 1440px) {
+  .take-action {
+    height: 150vh;
+    padding: 5rem 10rem;
+  }
+
+  .take-action {
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    width: 100%;
+    gap: 2rem;
+  }
+
+  .take-action > div{
+    width: 100%;
+  }
+
+  .take-action > div > h2 {
+    font-family: flood-std, sans-serif;
+    font-size: 4rem;
+    line-height: 5.2rem;
+    padding: 2.5rem 0rem;
+    color: #ffffff;
+    width: 70%;
+  }
+
+  .take-action > div > button {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 900;
+    background: var(--color-secondary);
+    padding: 10px 10px;
+    color: var(--color-primary);
+    border-radius: 28px;
+    margin: 0rem 0rem;
+  }
+
+  .did-you-know {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    width: 100%;
+    margin: 5rem 0 3rem;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .box > button {
+    top: -13%;
+    left: 10%;
+    transform: translateX(-10%);
+  }
+
+  .left {
+    width: 70%;
+  }
+
+  .left > h3 {
+    font-size: 3rem;
+  }
+
+  .left > p {
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+  }
+
+
+}

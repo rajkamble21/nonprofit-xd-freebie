@@ -1,0 +1,124 @@
+.action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: #c1f7d5;
+  padding: 0 1rem;
+}
+
+.action > button {
+  background-color: #354463;
+  color: #ffff;
+  width: 161px;
+  height: 46px;
+  position: absolute;
+  top: -1.5rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  margin: 3.5rem auto;
+  gap: 1rem;
+  color: #354463;
+}
+
+.item > h3 {
+  font-size: 1.5rem;
+  line-height: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.item > p {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  font-weight: lighter;
+}
+
+@media (min-width: 768px) {
+    .action {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        background: #c1f7d5;
+        padding: 0rem 4rem;
+      }
+      
+      .action > button {
+        background-color: #354463;
+        color: #ffff;
+        width: 161px;
+        height: 46px;
+        position: absolute;
+        top: -1.5rem;
+      }
+      
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        margin: 3.5rem auto;
+        gap: 4rem;
+        color: #354463;
+      }
+      
+      .item > h3 {
+        font-size: 1.5rem;
+        line-height: 1.3rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+      
+      .item > p {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        font-weight: lighter;
+      }
+}
+
+
+@media (min-width: 1440px) {
+    .action {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        background: #c1f7d5;
+        padding: 0rem 10rem;
+      }
+      
+      .action > button {
+        background-color: #354463;
+        color: #ffff;
+        width: 161px;
+        height: 46px;
+        position: absolute;
+        top: -1.5rem;
+      }
+      
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+        margin: 5rem auto;
+        gap: 2.3rem;
+        color: #354463;
+      }
+      
+      .item > h3 {
+        font-size: 1.5rem;
+        line-height: 1.3rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+      
+      .item > p {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        font-weight: lighter;
+      }
+}

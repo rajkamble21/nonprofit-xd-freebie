@@ -1,0 +1,206 @@
+.what-we-do {
+  background: var(--color-primary);
+  padding: 3rem 0rem;
+}
+
+.what-we-do > button {
+  color: var(--color-white);
+  color: var(--color-primary);
+  width: 161px;
+  height: 46px;
+  display: block;
+  margin: auto;
+}
+
+.what-we-do > p {
+  font-size: 1.3rem;
+  font-weight: 1.75rem;
+  font-weight: 900;
+  text-align: center;
+  color: var(--color-white);
+  margin: 2.5rem auto;
+  width: 80%;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 5rem;
+}
+
+.card {
+  padding: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0rem;
+  background: var(--color-white);
+  width: 90%;
+  color: var(--color-primary);
+}
+
+.card > img {
+  width: 80%;
+  transform: translate(0, -40px);
+}
+
+.card > h4 {
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  font-weight: 900;
+  text-align: center;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+.card > p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 100;
+  text-align: center;
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+.card > button {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 900;
+  background: var(--color-secondary);
+  padding: 10px 30px;
+  color: var(--color-primary);
+  border-radius: 28px;
+  margin-bottom: 2rem;
+}
+
+.card > button:hover {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .what-we-do {
+    padding: 3rem 4rem;
+  }
+
+  .what-we-do > button {
+    display: block;
+    margin: 0;
+  }
+
+  .what-we-do > p {
+    font-size: 2rem;
+    line-height: 2.65rem;
+    text-align: left;
+    margin: 2.5rem 0;
+    width: 100%;
+  }
+
+  .cards {
+    margin-top: 5rem;
+    gap: 5rem;
+  }
+
+  .card {
+    padding: 1rem;
+    gap: 1.5rem;
+    width: 100%;
+    height: 40vh;
+    position: relative;
+  }
+
+  .card > img {
+    width: 45%;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+  }
+
+  .card > h4 {
+    text-align: left;
+    margin-top: 0%;
+    width: 40%;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+  }
+
+  .card > p {
+    font-weight: 100;
+    text-align: left;
+    width: 40%;
+    position: absolute;
+    top: 6.5rem;
+    right: 2rem;
+  }
+
+  .card > button {
+    position: absolute;
+    top: 12rem;
+    left: 8.5rem;
+  }
+
+}
+
+@media (min-width: 1440px) {
+  .what-we-do {
+    padding: 5rem 10rem;
+  }
+
+  .what-we-do > button {
+
+    display: block;
+    margin: 0;
+  }
+
+  .what-we-do > p {
+    font-size: 2.55rem;
+    font-weight: 1.75rem;
+    text-align: left;
+    margin: 2.5rem 0;
+    width: 100%;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8rem;
+    gap: 1rem;
+  }
+
+  .card {
+    padding: 0rem;
+    gap: 0rem;
+    width: 29%;
+  }
+
+  .card > img {
+    width: 100%;
+    transform: translate(40px, -40px);
+  }
+
+  .card > h4 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    text-align: left;
+    margin: 0 2rem 1.5rem;
+  }
+
+  .card > p {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    text-align: left;
+    margin: 0 2rem 1.5rem;
+  }
+
+  .card > button {
+    margin:  0 2rem 1.5rem;
+  }
+
+}
